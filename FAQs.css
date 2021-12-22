@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap");
+body{
+    background-image: linear-gradient(120deg,red,blue);
+}
+.row1{
+    display:flex;
+    background-color:black;
+    height:80px;
+   
+}
+#btn{
+    border:none;
+    background:none;
+    color:white;
+    margin-left:30px;
+    margin-top:20px;
+    font-size:25px;
+    font-weight:bold;
+
+}
+#btn:hover{
+    background-image:linear-gradient(120deg,orange,yellow);
+    border-radius:20px;
+    border:2px solid black;
+    color:white;
+    
+
+}
+#image{
+    width:80px;
+    height:80px;
+    background-color:white;
+    border:5px solid black;
+    margin-left:none;
+}
+#contactbtn{
+    border:none;
+    background:none;
+    color:white;
+    margin-left:695px;
+    margin-top:20px;
+    font-size:25px;
+    font-weight:bold;
+
+}
+#contactbtn:hover{
+    background-image:linear-gradient(120deg,orange,yellow);
+    border-radius:20px;
+    color:white;
+    
+}
+main{
+    font-family:"Quicksand",sans-serif;
+    min-height:100vh;
+    width:80%;
+    margin:0 auto;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+h2{
+    font-size:3em;
+    font-weight:bold;
+    color:white;
+    margin-top:20px;
+}
+.faq{
+    max-width:700px;
+    margin-top:2rem;
+    padding-bottom:1rem;
+    border-bottom:2px solid white;
+    cursor: pointer;
+}
+.question {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+
+.question h3{
+    font-size:1.8rem;
+    color:white;
+    font-weight:bold;
+}
+.answer p{
+    padding-top: 1rem;
+    line-height:1.6;
+    font-size:1.4rem;
+    color:white;
+}
+.answer{
+    max-height:0;
+    overflow:hidden;
+    transition:max-heigth 1.4s ease;
+}
+.faq.active .answer{
+    max-height:300px;
+    animation:fade 1s ease-in-out;
+}
+.faq.active svg{
+    transform: rotate(180deg);
+}
+svg{
+    transition: transform 0.5s ease-in;
+}
+@keyframes fade{
+    from{
+        opacity:0;
+        transform:translateY(-10px);
+    }
+}

@@ -1,0 +1,262 @@
+.row1{
+    display:flex;
+    background-color:black;
+    height:80px;
+}
+#btn{
+    border:none;
+    background:none;
+    color:white;
+    margin-left:30px;
+    margin-top:20px;
+    font-size:25px;
+    font-weight:bold;
+
+}
+#btn:hover{
+    background-image:linear-gradient(120deg,orange,yellow);
+    border-radius:20px;
+    border:2px solid black;
+    color:white;
+    
+
+}
+#z{
+    width:1300px;
+    height:40px;
+    background-image:linear-gradient(120deg,purple,blue);
+}
+#image{
+    width:80px;
+    height:80px;
+    background-color:white;
+    border:5px solid black;
+    margin-left:none;
+}
+#contactbtn{
+    border:none;
+    background:none;
+    color:aqua;
+    margin-left:695px;
+    margin-top:20px;
+    font-size:25px;
+    font-weight:bold;
+
+}
+#contactbtn:hover{
+    background-image:linear-gradient(120deg,orange,yellow);
+    border-radius:20px;
+    border:2px solid black;
+    color:white;
+    
+}
+#section_1{
+    display:flex;
+}
+#x{
+    margin-left:300px;
+    margin-top:50px;
+    color:yellow;
+    text-decoration: 5px  underline;
+    text-underline-offset: 10px;
+}
+#main1{
+    width:600px;
+    text-align:center;
+    height:580px;
+   
+}
+#image1{
+    width:200px;
+    height:200px;
+    margin-top:170px;
+    margin-left:100px;
+    border-radius:200px;
+    border:5px solid yellow;
+    background-color:white;
+    
+}
+#shop{
+   
+    margin-top:18px;
+    margin-left:105px;
+    font-size:3em;
+    color:#0e3742;
+    text-transform:uppercase;
+    animation:blink 3s linear infinite;
+
+}
+@keyframes blink
+ {
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
+        color:#0e3742;
+        text-shadow:none;
+    }
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+        color:#fff;
+        text-shadow:0 0 10px #03bcf4,
+        0 0 20px #03bcf4,
+        0 0 40px #03bcf4,
+        0 0 80px #03bcf4,
+        0 0 160px #03bcf4;
+    }
+
+}
+.y{
+    color:yellow;
+    text-decoration: 5px underline;
+    text-underline-offset: 10px;
+}
+.y:hover{
+    font-size:35px;
+    color:coral;
+}
+.main3{
+    margin-left:100px;
+    margin-top:30px;
+    color:white;
+    
+    font-weight:bold;
+    font-size:17px;
+}
+
+#mainx{
+    display:flex;
+    margin:none;
+}
+.pics{
+  width:305px;
+  height:250px;
+  border:3px solid white;
+}
+.pics:hover{
+  width:310px;
+  height:255px;
+  border:3px solid yellow;
+}
+.main4{
+    margin-left:25px;
+    margin-bottom:25px;
+    margin-top:20px;
+}
+#brand{
+  
+    color:yellow;
+    text-decoration: 5px  underline;
+    text-underline-offset: 10px;
+    margin-left:25px;
+    margin-bottom:30px;
+
+}
+#brand:hover{
+    color:coral;
+}
+#custimg{
+    width:380px;
+    height:300px;
+    margin-left:25px;
+    margin-top:10px;
+}
+#cust{
+    margin-left:50px;
+    margin-right:50px;
+    font-weight:bold;
+    color:white;
+   font-size:18px;
+}
+
+#section_3{
+    display:flex;
+}
+.reveal{
+    position: relative;
+    transform: skewY(150deg);
+    transform: skewX(150deg);
+    transform: transformY(150px);
+    
+    opacity:0;
+    transition: all 2.5s ease;
+}
+.reveal.active{
+    transform: translateY(0px); 
+    opacity:1;
+}
+main{
+    background-image:linear-gradient(120deg,red,blue);
+}
+#footer{
+    display:flex;
+    height:400px;
+    background-image:url(https://wallpaperaccess.com/full/3940531.jpg);
+    background-size: 1390px 500px;
+    
+    color:white;
+    
+    
+}
+
+#contact_details{
+   margin-top:57px;
+   width:500px;
+   margin-left:60px;
+   margin-right:20px;
+   
+}
+#links{
+    margin-top:57px;
+    width:400px;
+    margin-left:100px;
+}
+#quick_links{
+    width:350px;
+    margin-top:57px;
+    margin-left:80px;
+}
+ul li{
+    list-style-type:none;
+    font-size:22px;
+
+}
+ ul li a{
+    text-decoration:none;
+    font-weight:bolder;   
+}
+
+#quick_links ul li a:hover::before{
+    content:"-->";
+    color:yellow;
+    font-size:20px;
+    text-shadow: 0 0 10px #fff;
+}
+#quick_links ul li a:hover{
+    color:white;
+    text-shadow: 0 0 10px #03bcf4;
+}
+
+ul li a i{
+    font-size:40px;
+    color:yellow;
+    
+
+}
+ul li a i:hover{
+    font-size: 42px;
+    text-shadow:0 0 10px #03bcf4;
+}
+#links ul{
+    display:flex;
+}
+#links ul li a{
+    display:inline-block;
+    width:60px;
+    height:80px;
+    margin-top:40px;
+}
+#quick{
+    margin-left:30px;
+
+}
+#map{
+    color:white;
+}
+
