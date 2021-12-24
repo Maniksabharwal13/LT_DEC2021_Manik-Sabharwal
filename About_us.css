@@ -215,6 +215,7 @@ main{
 ul li{
     list-style-type:none;
     font-size:22px;
+    font-weight:bold;
 
 }
  ul li a{
@@ -259,4 +260,48 @@ ul li a i:hover{
 #map{
     color:white;
 }
-
+.topbtn{
+    position:fixed;
+    font-size:47px;
+    color:white;
+    opacity:0.5;
+    bottom:30px;
+    right:30px;    
+}
+.topbtn:hover{
+    color:white;
+    opacity:0.5;
+    font-size:49px;
+}
+@media(max-width:1300px) and (min-width:1200px){
+    #btn{
+        margin-left:15px;
+    }
+    #contactbtn{
+        margin-left:660px;
+    }
+    #z{
+        width:100%;
+    }
+    #footer{
+        background-size: 1336px 500px;
+    }
+    ul li{
+        font-size:20px;
+        font-weight: bold;
+    }
+    ul li a{
+    font-size:21px;
+         }
+    .pics{
+        width:287px;
+        height:235px;
+    }
+    .pics:hover{
+        width:290px;
+        height:240px;
+    }
+    .main3{
+        margin-left:85px;
+    }
+        }

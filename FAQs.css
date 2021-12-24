@@ -92,7 +92,7 @@ h2{
 .answer{
     max-height:0;
     overflow:hidden;
-    transition:max-heigth 1.4s ease;
+    transition:max-heigth 1s ease;
 }
 .faq.active .answer{
     max-height:300px;
@@ -108,5 +108,13 @@ svg{
     from{
         opacity:0;
         transform:translateY(-10px);
+    }
+}
+@media(max-width:1300px) and (min-width:1200px){
+    #btn{
+        margin-left:15px;
+    }
+    #contactbtn{
+        margin-left:660px;
     }
 }
