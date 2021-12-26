@@ -58,7 +58,7 @@ main{
     flex-direction:column;
     align-items:center;
 }
-h2{
+main h2{
     font-size:3em;
     font-weight:bold;
     color:white;
@@ -104,12 +104,95 @@ h2{
 svg{
     transition: transform 0.5s ease-in;
 }
+#footer{
+    display:flex;
+    height:400px;
+    background-image:url(https://wallpaperaccess.com/full/3940531.jpg);
+    background-size: 1396px 500px;
+    color:white;   
+}
+
+#contact_details{
+   margin-top:57px;
+   width:500px;
+   margin-left:60px;
+   margin-right:20px;
+   
+}
+#links{
+    margin-top:57px;
+    width:400px;
+    margin-left:100px;
+}
+#quick_links{
+    width:350px;
+    margin-top:57px;
+    margin-left:80px;
+}
+ul li{
+    list-style-type:none;
+    font-size:22px;
+    font-weight:bold;
+
+}
+ ul li a{
+    text-decoration:none;
+    font-weight:bolder;  
+}
+#quick_links ul li a:hover::before{
+    content:"-->";
+    color:yellow;
+    font-size:20px;
+    text-shadow: 0 0 10px #fff;
+}
+#quick_links ul li a:hover{
+    color:white;
+    text-shadow: 0 0 10px #03bcf4;
+}
+ul li a i{
+    font-size:40px;
+    color:yellow;
+}
+ul li a i:hover{
+    font-size: 42px;
+    text-shadow:0 0 10px #03bcf4;
+}
+#links ul{
+    display:flex;
+}
+#links ul li a{
+    display:inline-block;
+    width:60px;
+    height:80px;
+    margin-top:40px;
+}
+#quick{
+    margin-left:30px;
+
+}
+#map{
+    color:white;
+}
+.topbtn{
+    position:fixed;
+    font-size:47px;
+    color:white;
+    opacity:0.5;
+    bottom:30px;
+    right:30px;    
+}
+.topbtn:hover{
+    color:white;
+    opacity:0.5;
+    font-size:49px;
+}
 @keyframes fade{
     from{
         opacity:0;
         transform:translateY(-10px);
     }
 }
+
 @media(max-width:1300px) and (min-width:1200px){
     #btn{
         margin-left:15px;
@@ -117,4 +200,14 @@ svg{
     #contactbtn{
         margin-left:660px;
     }
+    #footer{
+        background-size: 1336px 500px;
+    }
+    ul li{
+        font-size:20px;
+        font-weight: bold;
+    }
+    ul li a{
+    font-size:21px;
+         }
 }
